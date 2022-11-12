@@ -16,10 +16,9 @@ public class Main {
 //        System.out.println(nameBook1.nameBook + " " + nameBook1.yearCreation);
 
 
-        String finBook1 = nameBook1.getAuthor().getNameAutor() + " " + nameBook1.getAuthor().getSurnameAutor() + " " + nameBook1.getNameBook() + " " + nameBook1.getYearCreation();
-        String finBook2 = nameBook2.getAuthor().getNameAutor() + " " + nameBook2.getAuthor().getSurnameAutor() + " " + nameBook2.getNameBook() + " " + nameBook2.getYearCreation();
-        System.out.println("Книга первая: " + finBook1);
-        System.out.println("Книга вторая: " + finBook2);
+
+        System.out.println(nameBook1);
+        System.out.println(nameBook2);
     }
 }
 
